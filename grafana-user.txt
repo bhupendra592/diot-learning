@@ -1,0 +1,10 @@
+
+CREATE USER 'grafana'@'%' IDENTIFIED BY 'Grafana@1234';
+GRANT ALL PRIVILEGES ON *.* TO 'grafana'@'%';
+FLUSH PRIVILEGES;
+
+GRANT ALL PRIVILEGES ON *.* TO 'root'@'%' IDENTIFIED BY 'root';
+FLUSH PRIVILEGES;
+
+ show grants for grafanal
+
