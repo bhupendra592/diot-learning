@@ -1,6 +1,5 @@
 
 CREATE USER 'grafana'@'%' IDENTIFIED BY 'Grafana@1234';
-GRANT ALL PRIVILEGES ON *.* TO 'grafana'@'%' IDENTIFIED BY 'Grafana@1234';
 GRANT ALL PRIVILEGES ON *.* TO 'grafana'@'%';
 FLUSH PRIVILEGES;
 
